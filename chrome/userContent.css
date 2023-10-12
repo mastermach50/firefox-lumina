@@ -1,0 +1,27 @@
+@import "./colors.css";
+
+:root {
+    /* TST bg */
+    --browser-background: var(--dark-1000) !important;
+
+    /* tabs */
+    --browser-selected-tab-bg: var(--grey-600) !important;
+}
+
+@-moz-document url("about:newtab") {  
+    html {
+        --newtab-background-color: var(--dark-900) !important;
+        --newtab-background-color-secondary: var(--dark-900) !important;
+    }
+
+    body {
+        background-image: url("./res/black-hole.jpg") !important;
+        background-size: cover !important;
+    }
+
+    .search-handoff-button {
+        border-radius: 3rem !important;
+    }
+
+}
+

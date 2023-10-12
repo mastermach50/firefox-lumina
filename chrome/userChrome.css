@@ -1,0 +1,70 @@
+@import "./ctp/ctp-mocha.css";
+@import "./colors.css";
+
+#TabsToolbar {
+    display: none !important;
+}
+
+#urlbar-background {
+    border-radius: 1.5rem !important;
+}
+
+#sidebar-header {
+    font-size: 1rem !important;
+    padding: 1px !important;
+    border-bottom: 0px !important;;
+}
+
+#sidebar-close {
+    display: none !important;
+}
+
+#sidebar-splitter {
+    width: 2px !important;
+    background-color: var(--dark-1000) !important;
+    border: 0px !important;
+}
+
+#navigator-toolbox {
+    border-bottom: 0px !important;
+}
+
+#main-window {
+    --urlbar-icon-border-radius: 1rem !important;
+}
+
+#main-window {
+    /* top bar */
+    --lwt-accent-color: var(--dark-1000) !important;
+    --lwt-accent-color-inactive: var(--dark-1000) !important;
+
+    /* top toolbar */
+    --toolbar-bgcolor: var(--dark-1000) !important;
+
+    /* urlbar */
+    --toolbar-field-background-color: var(--dark-900) !important;
+    --toolbar-field-focus-background-color: var(--dark-800)!important;
+
+    /* buttons */
+    --button-bgcolor: var(--grey-700) !important;
+    --button-hover-bgcolor: var(--grey-600) !important;
+    --button-active-bgcolor: var(--light-300) !important;
+
+    /* popup panels */
+    --arrowpanel-background: var(--dark-900) !important;
+    --arrowpanel-border-color: var(--ctp-mocha-blue) !important;
+
+    /* profile gradient */
+    --panel-separator-zap-gradient: linear-gradient(90deg, var(--ctp-mocha-red) 0%, var(--ctp-mocha-yellow) 52.08%, var(--ctp-mocha-green) 100%) !important;
+
+    --autocomplete-popup-highlight-background: var(--grey-500) !important;
+}
+
+#sidebar-box {
+    /* sidebar header */
+    --sidebar-background-color: var(--dark-1000) !important;
+}
+
+panel toolbarseparator {
+    border-top-color: var(--ctp-mocha-blue) !important;
+}
