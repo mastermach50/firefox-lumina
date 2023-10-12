@@ -18,3 +18,7 @@ git clone https://github.com/mastermach50/firefox-lumina.git
 
 ## Issues
 I want to modify every part of firefox to make it look seamless, you can file an issue if some part of firefox is not themed.
+
+## Still need to work on
+- A better newtab page
+- themed tooltips
