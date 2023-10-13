@@ -25,3 +25,8 @@
 
 }
 
+@-moz-document url-prefix("about:") {
+    html {
+        --in-content-page-background: var(--dark-900) !important;
+    }
+}
