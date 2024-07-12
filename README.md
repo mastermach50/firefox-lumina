@@ -13,7 +13,7 @@ A userstylesheet dark theme for Firefox, designed for using with Tree Style Tabs
 ## Installation
 1. Clone the repo
 ```
-git clone https://github.com/mastermach50/firefox-lumina.git
+git clone https://github.com/mastermach50/firefox-lumina.git --depth 1
 ```
 2. Copy the `chrome` folder into your firefox user profile folder
 > Remember to backup your current chrome folder if it exists
