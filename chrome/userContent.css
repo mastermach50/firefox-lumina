@@ -1,16 +1,20 @@
-@import "./colors.css";
-@import "./newtab.css";
-
-:root {
-    /* TST bg */
-    --browser-background: var(--dark-1000) !important;
-
-    /* tabs */
-    --browser-selected-tab-bg: var(--dark-800) !important;
-}
-
-@-moz-document url-prefix("about:") {
+@-moz-document url("about:newtab") {
     html {
-        --in-content-page-background: var(--dark-900) !important;
+        --newtab-background-color-secondary: #00000000 !important;
+    }
+
+    .tile {
+        box-shadow: none !important;
+    }
+
+    .search-wrapper .search-handoff-button {
+        background-color: #212121 !important;
+        border-radius: 5rem !important;
+      }
+
+    body {
+        background-image: url("./res/glenn-carstens-peters-IMRuLuNnFw4-unsplash.jpg") !important;
+        background-size: cover !important;
+        background-blend-mode: soft-light;
     }
 }

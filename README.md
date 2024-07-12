@@ -1,13 +1,13 @@
 # Firefox Lumina
 A userstylesheet dark theme for Firefox, designed for using with Tree Style Tabs.
 
-> Wallpaper by [Aman Pal (unsplash)](https://unsplash.com/@paman0744)
+> Wallpaper by [Glenn Carstens-Peters](https://unsplash.com/@glenncarstenspeters)
 
 ![screenshot](screenshot.png)
 ## Design Aspects
-- A browser theme should not distract the user from the content of the page that they are viewing.
-- The browser theme should mix elegantly with most popular websites (eg: youtube, google, duckduckgo, github etc)
-- Vertical Tabs > Horizontal Tabs
+- The browser theme should not distract the user from the content of the page that they are viewing.
+- The browser theme should mix elegantly with modern styles used by most sites.
+- Vertical Tabs >>> Horizontal Tabs
 - Rounded elements look better
 
 ## Installation
@@ -24,9 +24,4 @@ git clone https://github.com/mastermach50/firefox-lumina.git
 
 5. Restart the browser
 
-## Issues
-I want to modify every part of firefox to make it look seamless, you can file an issue if some part of firefox is not themed.
-
-## Still need to work on
-- A better newtab page
-- themed tooltips
+> Some parts of the browser are still not themed, like the settings page. These will be themed later on.
