@@ -22,6 +22,12 @@ git clone https://github.com/mastermach50/firefox-lumina.git --depth 1
 
 4. Make sure that `toolkit.legacyUserProfileCustomizations.stylesheets` is enabled
 
+5. Install and enable the __lumina theme__ from [here](https://addons.mozilla.org/en-US/firefox/addon/lumina-ma3/)
+
+6. Install and enable __Tree Style Tab__ from [here](https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/)
+
+7. Set `Website Appearence` to `Dark` in `about:preferences#general`.
+
 5. Restart the browser
 
 > Some parts of the browser are still not themed, like the settings page. These will be themed later on.

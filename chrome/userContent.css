@@ -1,14 +1,14 @@
 @-moz-document url("about:newtab") {
     html {
-        --newtab-background-color-secondary: #00000000 !important;
+        --newtab-background-color-secondary: #212121 !important;
     }
-
+    
     .tile {
+        --newtab-background-color-secondary: #00000000 !important;
         box-shadow: none !important;
     }
 
     .search-wrapper .search-handoff-button {
-        background-color: #212121 !important;
         border-radius: 5rem !important;
       }
 
