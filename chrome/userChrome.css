@@ -1,4 +1,5 @@
 @import "./colors.css";
+@import "./window-controls.css";
 
 #titlebar {
   display: none;
