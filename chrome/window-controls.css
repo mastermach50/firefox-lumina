@@ -1,7 +1,18 @@
 @namespace xul url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
+/* Index [ctrl+f to find a section]
+
+baseline modifications
+to return the title bar buttons
+adjust nav bar margin
+total button size
+(optional) flip button order
+when in fullscreen mode
+macos layout
+
 /*-------------------------------------------------------------------------------------*/
-/* baseline */
+
+/* baseline modifications */
 
 #navigator-toolbox {
   background: var(--toolbar-bgcolor) !important;
@@ -33,6 +44,7 @@ toolbox#navigator-toolbox > toolbar#nav-bar.browser-toolbar{ animation: none; }
 
 
 /*--------------------------------------------------------------------------------------*/
+
 /* to return the title bar buttons */
 
 :root[tabsintitlebar] .titlebar-buttonbox{
@@ -69,7 +81,8 @@ toolbox#navigator-toolbox > toolbar#nav-bar.browser-toolbar{ animation: none; }
 
 
 /*--------------------------------------------------------------------------------------*/
-/* macos */
+
+/* macos layout */
 
 @media (-moz-os-version: macos), (-moz-platform: macos) {
     #nav-bar {
