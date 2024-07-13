@@ -1,6 +1,33 @@
-Returned WIndow Controls
+# Firefox Lumina
+A userstylesheet dark theme for Firefox, designed for using with Tree Style Tabs.
 
-[screenshot]
+> Wallpaper by [Glenn Carstens-Peters](https://unsplash.com/@glenncarstenspeters)
 
-See:
-https://github.com/soulhotel/firefox-lumina/blob/0b86dbcd8dfe0ce8f4dda5385560ed5a31e53b00/chrome/window-controls.css#L1-L73
+![screenshot](screenshot.png)
+## Design Aspects
+- The browser theme should not distract the user from the content of the page that they are viewing.
+- The browser theme should mix elegantly with modern styles used by most sites.
+- Vertical Tabs >>> Horizontal Tabs
+- Rounded elements look better
+
+## Installation
+1. Clone the repo
+```
+git clone https://github.com/mastermach50/firefox-lumina.git --depth 1
+```
+2. Copy the `chrome` folder into your firefox user profile folder
+> Remember to backup your current chrome folder if it exists
+
+3. Go to `about:config` of firefox
+
+4. Make sure that `toolkit.legacyUserProfileCustomizations.stylesheets` is enabled
+
+5. Install and enable the __lumina theme__ from [here](https://addons.mozilla.org/en-US/firefox/addon/lumina-ma3/)
+
+6. Install and enable __Tree Style Tab__ from [here](https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/)
+
+7. Set `Website Appearence` to `Dark` in `about:preferences#general`.
+
+5. Restart the browser
+
+> Feel free to create an issue if something is not looking right
