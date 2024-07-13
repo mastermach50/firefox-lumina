@@ -1,3 +1,12 @@
+/* 
+Firefox Lumina
+
+version: 1.1
+author: https://github.com/mastermach50
+repo: https://github.com/mastermach50/firefox-lumina
+addon: https://addons.mozilla.org/en-US/firefox/addon/lumina-ma3
+ */
+
 @import "./colors.css";
 @import "./window-controls.css";
 
@@ -10,6 +19,13 @@
   font-weight: 700;
 }
 
+#appMenu-fxa-separator {
+  background: linear-gradient(90deg, rgba(13,0,255,1) 0%, rgba(255,0,166,1) 100%) !important;
+  border: none !important;
+  height: 2px !important;
+}
+
+
 /* URL Bar */
 
 html#main-window {
@@ -20,7 +36,8 @@ html#main-window {
   border-radius: 10rem !important;
 }
 
-#urlbar[breakout][breakout-extend][breakout-extend-animate] > #urlbar-background {
+#urlbar[breakout][breakout-extend][breakout-extend-animate]
+  > #urlbar-background {
   border-radius: 1.5rem !important;
 }
 
@@ -41,4 +58,5 @@ html#main-window {
 #sidebar-splitter {
   border: none !important;
   background-color: var(--lumina-bg-color-primary) !important;
+  margin-inline-start: 0 !important;
 }
