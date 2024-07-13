@@ -3,15 +3,15 @@
 #navigator-toolbox {
   background: var(--toolbar-bgcolor) !important;
 }
-#TabsToolbar {
-  display: none !important;
-} #titlebar {
-  display: initial !important;
-} #titlebar {
+
+#TabsToolbar { display: none !important; }
+
+#titlebar { display: initial !important; }
+
+#titlebar {
     order: 2;
     -moz-appearance: none !important;
     --tabs-navbar-shadow-size: 0px;
-    --uc-menubar-vertical-overlap: 19px;
 }
 
 /* some code related code blocks */
@@ -30,23 +30,23 @@ toolbox#navigator-toolbox > toolbar#nav-bar.browser-toolbar{ animation: none; }
 
 #navigator-toolbox:not(:-moz-lwtheme){ background-color: -moz-dialog; }
 
-/*-----------------------------------------*/
-/*--to return the title bar buttons--*/
-/*-----------------------------------------*/
+/*--------------------------------------------------------------------------------------*/
+/* to return the title bar buttons */
 
 :root[tabsintitlebar] .titlebar-buttonbox{
     position: fixed !important;
     display: flex !important;
     z-index: 2 !important;
     top: 4.2px !important;
-    right: 2px !important;
-    /* left instead of right, if you want it on left side */
+    right: 2px !important; /* or use 'left' to simulate macos positioning */
 }
 
-/* adjust nav bar margin for fixed button */
+/* to simulate toolbar buttons size and positioning, while keeping the window controls to the far end of the bar */
+
+/* adjust nav bar margin */
 #nav-bar {
-    margin-right: 98px;
-} /* margin-left if you have it on left side*/
+    margin-right: 98px; /* margin-left if you have it on left side*/
+} 
 
 /* 30px total button size to match toolbar buttons. */
 @media (-moz-platform: windows) {
@@ -63,12 +63,4 @@ toolbox#navigator-toolbox > toolbar#nav-bar.browser-toolbar{ animation: none; }
 
 :root[inFullscreen="true"] #navigator-toolbox:not(:hover) .titlebar-buttonbox {
     display: none !important;
-}
-
-/* when in fullscreen mode, and the navigation bar isnt hovered, match the themes rounded corners */
-
-@media not (-moz-bool-pref: "ultima.xstyle.squared") {
-    :root[inFullscreen="true"] #navigator-toolbox:not(:hover) + #browser {
-        padding-top: 5px !important;
-    }
 }
