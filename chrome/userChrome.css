@@ -1,3 +1,5 @@
+@import "./colors.css";
+
 #titlebar {
   display: none;
 }
@@ -33,4 +35,9 @@ html#main-window {
 
 #sidebar-close {
   display: none;
+}
+
+#sidebar-splitter {
+  border: none !important;
+  background-color: var(--lumina-bg-color-primary) !important;
 }

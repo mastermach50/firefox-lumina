@@ -1,6 +1,8 @@
+@import "./colors.css";
+
 @-moz-document url("about:newtab") {
     html {
-        --newtab-background-color-secondary: #212121 !important;
+        --newtab-background-color-secondary: var(--lumina-bg-color-secondary) !important;
     }
     
     .tile {
@@ -16,5 +18,15 @@
         background-image: url("./res/glenn-carstens-peters-IMRuLuNnFw4-unsplash.jpg") !important;
         background-size: cover !important;
         background-blend-mode: soft-light;
+    }
+}
+
+@-moz-document url-prefix("about:") {
+    :root {
+        --in-content-page-background: var(--lumina-bg-color-primary) !important;
+        --in-content-box-background: var(--lumina-bg-color-secondary) !important;
+        --in-content-table-background: var(--lumina-bg-color-secondary) !important;
+        --in-content-primary-button-background: var(--lumina-accent-color) !important;
+        --color-accent-primary: var(--lumina-accent-color) !important
     }
 }
