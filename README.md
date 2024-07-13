@@ -30,4 +30,4 @@ git clone https://github.com/mastermach50/firefox-lumina.git --depth 1
 
 5. Restart the browser
 
-> Some parts of the browser are still not themed, like the settings page. These will be themed later on.
+> Feel free to create an issue if something is not looking right
