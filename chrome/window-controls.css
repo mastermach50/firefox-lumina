@@ -1,7 +1,7 @@
 @namespace xul url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
 #navigator-toolbox {
-  background: var(--lumina-bg-color-primary) !important;
+  background: var(--toolbar-bgcolor) !important;
 }
 #TabsToolbar {
   display: none !important;
