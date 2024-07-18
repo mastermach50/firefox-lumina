@@ -2,67 +2,65 @@
 
 /* Index [ctrl+f to find a section]
 
+default positioning of window controls
 baseline modifications
 to return the title bar buttons
 adjust nav bar margin
 total button size
 (optional) flip button order
 when in fullscreen mode
+menubar adjustments
 macos layout
 
-/*-------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------*/
+
+/* default positioning of window controls */
+
+:root, * {
+    --wc-top: 4.2px;
+    --wc-left: 3px;
+    --wc-right: 2px;
+    --navbar-margin: 98px;
+    --mb-height: 20px;
+}
+
+/*--------------------------------------------------------------------------------------*/
 
 /* baseline modifications */
 
-#navigator-toolbox {
-  background: var(--toolbar-bgcolor) !important;
-}
-
+#titlebar { order: 2; }
+#titlebar { display: initial !important; }
 #TabsToolbar { display: none !important; }
 
-#titlebar { display: initial !important; }
-
-#titlebar {
-    order: 2;
-    -moz-appearance: none !important;
-    --tabs-navbar-shadow-size: 0px;
-}
-
+#titlebar { -moz-appearance: none !important; --tabs-navbar-shadow-size: 0px; }
+#navigator-toolbox { background: var(--toolbar-bgcolor) !important; }
 #navigator-toolbox > div{ display: contents }
-
 .global-notificationbox, #tab-notification-deck{order: 2;}
-
 #TabsToolbar .titlebar-spacer{ display: none; }
-
 #navigator-toolbox::after{ display: none !important; }
-
 toolbox#navigator-toolbox > toolbar#nav-bar.browser-toolbar{ animation: none; }
-
 #navigator-toolbox:hover #TabsToolbar{ animation: slidein ease-out 48ms 1; }
-
 #navigator-toolbox:not(:-moz-lwtheme){ background-color: -moz-dialog; }
-
 
 /*--------------------------------------------------------------------------------------*/
 
 /* to return the title bar buttons */
-
 :root[tabsintitlebar] .titlebar-buttonbox{
     position: fixed !important;
     display: flex !important;
     z-index: 2 !important;
-    top: 4.2px !important;
-    right: 2px !important; /* or use 'left' to simulate macos positioning */
+    top: var(--wc-top) !important;
+    right: var(--wc-right) !important;
+    /* you can use 'left' instead of 'right' to simulate macos positioning */
 }
 
-/* to simulate toolbar buttons size and positioning, while keeping the window controls to the far end of the bar */
-
-/* adjust nav bar margin */
+/* adjust nav bar margin to give the window controls area to sit */
 #nav-bar {
-    margin-right: 98px; /* margin-left if you have it on left side*/
+    margin-right: var(--navbar-margin);
+    /* margin-left if you have it on left side*/
 } 
 
-/* 30px total button size to match toolbar buttons. */
+/* adjust window control total button size to match toolbar buttons (30px). */
 @media (-moz-platform: windows) {
     .titlebar-buttonbox .titlebar-button {
         padding: 11px 11px !important;
@@ -70,31 +68,69 @@ toolbox#navigator-toolbox > toolbar#nav-bar.browser-toolbar{ animation: none; }
     }
 }
 
-/* (optional) flip button order
-.titlebar-buttonbox-container{ direction: rtl; } */
+/* (optional) flip button order */
+/*.titlebar-buttonbox-container{ direction: rtl; } */
 
-/* when in fullscreen mode, and the navigation bar isnt hovered, workaround for fixed title bar buttons */
+/*--------------------------------------------------------------------------------------*/
+
+/* when in fullscreen mode, and the navigation bar isnt visible, remove window controls */
 
 :root[inFullscreen="true"] #navigator-toolbox:not(:hover) .titlebar-buttonbox {
     display: none !important;
 }
 
+/*--------------------------------------------------------------------------------------*/
+
+/* menubar adjustments
+
+the titlebar must have an order of 2 - to keep window controls in one-line navigation bar themes.
+But this means, the menubar will be rearranged to sit under the navigation bar.
+The solution to this is to set the titlebar order back to 0 (default), when the menu bar is active.
+This will require repositioning the window controls, to keep them at the same height as the navigation bar as well. 
+
+reference:
+when the menubar is toggled on it uses the following selectors: #toolbar-menubar[autohide="true"]:not([inactive="true"])
+when the menubar is triggered with 'ALT' it uses this selector: #titlebar #toolbar-menubar[autohide="false"]
+*/
+
+/* the menu bar defaults to 20px, this ensures that it remains that height. */
+
+:root[tabsintitlebar] { & #toolbar-menubar[autohide="true"] { max-height: var(--mb-height) !important; } }
+
+/* to have the menu bar display at the very top of the UI */
+
+#titlebar:has([autohide="false"]),
+#titlebar:has([autohide="true"]:not([inactive="true"])) {
+    order: 0;
+}
+
+/* adjust the window controls positioning - to match the navigation bar displacement */
+
+#titlebar:has([autohide="false"]),
+#titlebar:has([autohide="true"]:not([inactive="true"])) {
+    & .titlebar-buttonbox { 
+        top: calc(var(--wc-top) + var(--mb-height)) !important;
+    }
+}
 
 /*--------------------------------------------------------------------------------------*/
 
 /* macos layout */
 
 @media (-moz-os-version: macos), (-moz-platform: macos) {
+    :root, * {
+        --wc-top: 12px;
+        --wc-left: 3px;
+        --wc-right: unset;
+        --navbar-margin: 98px;
+        --mb-height: 20px;
+    }
+    
     #nav-bar {
-        margin-left: 84px !important;
+        margin-left: var(--navbar-margin) !important;
         margin-right: 0px !important;
     }    
     
-    :root[tabsintitlebar] .titlebar-buttonbox {
-        top: 12px !important;
-        right: unset !important;
-        left: 3px !important;
-    }
     toolbar {
         min-height: 0px !important;
     }
