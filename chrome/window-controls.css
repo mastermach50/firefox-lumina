@@ -20,7 +20,7 @@ macos layout
     --wc-top: 4.2px;
     --wc-left: 3px;
     --wc-right: 2px;
-    --navbar-margin: 103px;
+    --navbar-margin: 93px;
     --mb-height: 20px;
 }
 
@@ -34,6 +34,7 @@ macos layout
 
 #titlebar { -moz-appearance: none !important; --tabs-navbar-shadow-size: 0px; }
 #navigator-toolbox { background: var(--toolbar-bgcolor) !important; }
+.browser-toolbar { &:not(.titlebar-color) { background-color: initial !important; }}
 #navigator-toolbox > div{ display: contents }
 .global-notificationbox, #tab-notification-deck{order: 2;}
 #TabsToolbar .titlebar-spacer{ display: none; }
@@ -63,8 +64,8 @@ toolbox#navigator-toolbox > toolbar#nav-bar.browser-toolbar{ animation: none; }
 /* adjust window control total button size to match toolbar buttons (30px). */
 @media (-moz-platform: windows) {
     .titlebar-buttonbox .titlebar-button {
-        padding: 11px 11px !important;
-        border-radius: 5px !important;
+        padding: 10px 10px !important;
+        border-radius: 4px !important;
     }
 }
 
