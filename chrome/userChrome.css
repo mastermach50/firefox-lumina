@@ -8,6 +8,7 @@ addon: https://addons.mozilla.org/en-US/firefox/addon/lumina-ma3
  */
 
 @import "./colors.css";
+@import "./window-controls.css";
 
 #titlebar {
   display: none;
