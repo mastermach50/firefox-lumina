@@ -17,10 +17,10 @@ macos layout
 /* default positioning of window controls */
 
 :root, * {
-    --wc-top: 4.2px;
+    --wc-top: 0.5rem;
     --wc-left: 3px;
-    --wc-right: 2px;
-    --navbar-margin: 93px;
+    --wc-right: 0.1rem;
+    --navbar-margin: 6rem;
     --mb-height: 20px;
 }
 

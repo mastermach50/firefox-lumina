@@ -1,3 +1,6 @@
+/* userContent */
+/* Defines the styles of various "about:*" pages */
+
 @import "./colors.css";
 
 @-moz-document url("about:newtab") {
@@ -6,13 +9,22 @@
     }
     
     .tile {
-        --newtab-background-color-secondary: #00000000 !important;
+        --newtab-background-color-secondary: transparent !important;
         box-shadow: none !important;
     }
 
     .search-wrapper .search-handoff-button {
         border-radius: 5rem !important;
-      }
+    }
+
+    .top-site-outer .context-menu-button {
+        top: 0 !important;
+        background-color: transparent !important;
+    }
+
+    .top-site-outer .context-menu-button:hover {
+        background-color: var(--newtab-button-hover-background) !important;
+    }
 
     body {
         background-image: url("./res/glenn-carstens-peters-IMRuLuNnFw4-unsplash.jpg") !important;
