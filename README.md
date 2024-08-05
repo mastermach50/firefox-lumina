@@ -30,4 +30,6 @@ git clone https://github.com/mastermach50/firefox-lumina.git --depth 1
 
 5. Restart the browser
 
+6. _Optional_: If you don't want window controls then you can comment out the line at the beginning of `userChrome.css` in the `chrome` folder that imports `new-window-controls.css`. [this line](https://github.com/mastermach50/firefox-lumina/blob/main/chrome/userChrome.css#L16)
+
 > Feel free to create an issue if something is not looking right
