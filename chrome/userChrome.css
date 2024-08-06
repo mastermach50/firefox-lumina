@@ -15,6 +15,10 @@ addon: https://addons.mozilla.org/en-US/firefox/addon/lumina-ma3
 /* Comment this out if you don't need the window controls (like when using a tiling WM) */
 @import "./new-window-controls.css";
 
+/* For when new-window-controls.css is not used */
+#TabsToolbar {
+  visibility: collapse;
+}
 
 /* App Menu */
 
