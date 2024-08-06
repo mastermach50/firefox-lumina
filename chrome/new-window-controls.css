@@ -48,4 +48,8 @@
   #nav-bar {
     margin-right: 6rem;
   }
+
+  #PanelUI-menu-button {
+    padding-inline-end: 0 !important;
+  }
 }
