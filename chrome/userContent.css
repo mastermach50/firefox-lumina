@@ -3,7 +3,7 @@
 
 @import "./colors.css";
 
-@-moz-document url("about:newtab") {
+@-moz-document url("about:home"), url("about:newtab") {
     html {
         --newtab-background-color-secondary: var(--lumina-bg-color-secondary) !important;
     }
