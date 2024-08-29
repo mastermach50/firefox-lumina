@@ -1,11 +1,11 @@
-/* 
+/*
 Firefox Lumina
 
 version: 1.1
 author: https://github.com/mastermach50
 repo: https://github.com/mastermach50/firefox-lumina
 addon: https://addons.mozilla.org/en-US/firefox/addon/lumina-ma3
- */
+*/
 
 /* userChrome.css */
 /* Defines the styles to be used by the browser */
@@ -19,6 +19,7 @@ addon: https://addons.mozilla.org/en-US/firefox/addon/lumina-ma3
 #TabsToolbar {
   visibility: collapse;
 }
+
 
 /* App Menu */
 
@@ -49,9 +50,9 @@ html#main-window {
 }
 
 /* Maked the url bar rounded (in open state) */
-#urlbar[breakout][breakout-extend][breakout-extend-animate]
-  > #urlbar-background {
+#urlbar[breakout-extend] > #urlbar-background {
   border-radius: 1.5rem !important;
+  border-width: 2px !important;
 }
 
 
@@ -77,4 +78,12 @@ html#main-window {
   border: none !important;
   background-color: var(--lumina-bg-color-primary) !important;
   margin-inline-start: 0 !important;
+}
+
+
+/* Tabs */
+
+/* Increase border width of current tab */
+tab-item.active .background:not(.base) {
+  outline-width: 2px !important;
 }

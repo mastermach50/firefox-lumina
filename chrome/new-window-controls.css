@@ -1,5 +1,5 @@
 /* window-controls.css */
-/* An optional file that brings back the window buttons */
+/* An optional file that brings back the window control buttons */
 
 #TabsToolbar {
   /* To override value from userChrome.css */
@@ -15,7 +15,7 @@
   height: 0;
 }
 
-
+/* Platform specific window control placement */
 @media (-moz-platform: windows) {
   .titlebar-buttonbox {
     top: 0;
