@@ -83,7 +83,9 @@ html#main-window {
 
 /* Tabs */
 
+/* Cound not be implemented */
+
 /* Increase border width of current tab */
-tab-item.active .background:not(.base) {
+/* tab-item.active .background:not(.base) {
   outline-width: 2px !important;
-}
+} */
