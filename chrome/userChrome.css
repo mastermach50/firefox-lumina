@@ -1,91 +1,9 @@
-/*
-Firefox Lumina
+/* General Config File */
+@import url(./lumina/general.css);
 
-version: 1.1
-author: https://github.com/mastermach50
-repo: https://github.com/mastermach50/firefox-lumina
-addon: https://addons.mozilla.org/en-US/firefox/addon/lumina-ma3
-*/
+@import url(./lumina/panels.css);
+@import url(./lumina/navbar.css);
+@import url(./lumina/sidebar.css);
+@import url(./lumina/browser.css);
 
-/* userChrome.css */
-/* Defines the styles to be used by the browser */
-
-@import "./colors.css";
-
-/* Comment this out if you don't need the window controls (like when using a tiling WM) */
-@import "./new-window-controls.css";
-
-/* For when new-window-controls.css is not used */
-#TabsToolbar {
-  visibility: collapse;
-}
-
-
-/* App Menu */
-
-/* Increases size and weight of username in Firefox's top right hamburger menu */
-#appMenu-header-description {
-  font-size: larger;
-  font-weight: 700;
-}
-
-/* Adds a linear gradient below the username in Firefox's top right hamburger menu */
-#appMenu-fxa-separator {
-  background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%) !important;
-  border: none !important;
-  height: 2px !important;
-}
-
-
-/* URL Bar */
-
-/* Makes all the icons round */
-html#main-window {
-  --urlbar-icon-border-radius: 1rem !important;
-}
-
-/* Maked the url bar rounded (in closed state) */
-#urlbar-background {
-  border-radius: 10rem !important;
-}
-
-/* Maked the url bar rounded (in open state) */
-#urlbar[breakout-extend] > #urlbar-background {
-  border-radius: 1.5rem !important;
-  border-width: 2px !important;
-}
-
-
-/* Sidebar */
-
-/* Reduces the height of the sidebar header */
-#sidebar-header {
-  height: 2rem;
-}
-
-/* Reduces the font size of the sidebar header */
-#sidebar-title {
-  font-size: small;
-}
-
-/* Removes the close button from the sidebar header */
-#sidebar-close {
-  display: none;
-}
-
-/* Removes the very thicc sidebar right border seen on Linux */
-#sidebar-splitter {
-  border: none !important;
-  background-color: var(--lumina-bg-color-primary) !important;
-  margin-inline-start: 0 !important;
-}
-
-
-/* Tabs */
-
-/* Cound not be implemented */
-
-/* Increase border width of current tab */
-/* tab-item.active .background:not(.base) {
-  outline-width: 2px !important;
-} */
+@import url(./lumina/TabsToolbar.css);

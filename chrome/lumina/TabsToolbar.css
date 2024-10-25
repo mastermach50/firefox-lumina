@@ -1,0 +1,4 @@
+/* remove the original horizontal tabs toolbar */
+#TabsToolbar {
+    display: none !important;
+}

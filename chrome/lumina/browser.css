@@ -1,0 +1,18 @@
+@import url(./general.css);
+
+/* Add a border to the browser */
+browser[primary="true"] {
+    border-radius: var(--lumina-border-radius) 0 0 0 !important;
+    border-top: solid var(--lumina-browser-border-color) var(--browser-border-width) !important;
+    border-left: solid var(--lumina-browser-border-color) var(--browser-border-width) !important;
+}
+
+/* Remove left border and rounding if the sidebar is hidden */
+#sidebar-splitter[hidden="true"]~#appcontent browser {
+    border-left: none !important;
+    border-radius: 0 !important;
+}
+
+.browserContainer {
+    background-color: var(--lumina-primary-color) !important;
+}

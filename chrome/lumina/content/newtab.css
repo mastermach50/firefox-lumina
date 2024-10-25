@@ -1,0 +1,44 @@
+@import url(./../general.css);
+
+@-moz-document url("about:home"), url("about:newtab") {
+
+    body {
+        /* Set the colors on the newtab */
+        --newtab-background-color: var(--lumina-primary-color) !important;
+        --newtab-background-color-secondary: var(--lumina-secondary-color) !important;
+        --newtab-element-hover-color: var(--lumina-secondary-color) !important;
+
+        /* Set the newtab background image */
+        background-image: url(../../wallpapers/francesco-ungaro-r4WYSLo13Bs-unsplash.jpg) !important;
+    }
+
+    /* Round the borders of the searchbar on the newtab */
+    .search-handoff-button {
+        border-radius: var(--circular-border-radius) !important;
+    }
+
+    /* Remove the background of the tiles in the newtab */
+    .top-site-outer .top-site-inner,
+    .top-site-outer .tile,
+    .top-site-outer .top-site-icon,
+    .top-site-outer .context-menu-button {
+        background-color: transparent !important;
+        box-shadow: none !important;
+    }
+
+    /* Set the button on the tile to the top */
+    .top-site-outer .context-menu-button {
+        top: 0 !important;
+    }
+
+    /* Change the color of the button on the tile on hover */
+    .top-site-outer .context-menu-button:hover {
+        background-color: var(--lumina-tertiary-color) !important;
+    }
+
+    /* Remove excess padding on the tiles */
+    .top-site-outer .top-site-inner > a {
+        padding: 0 !important;
+    }
+
+}

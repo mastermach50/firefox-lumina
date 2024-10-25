@@ -1,0 +1,11 @@
+* {
+    --lumina-border-radius: 12px;
+    --circular-border-radius: 50px;
+    --browser-border-width: 2px;
+
+    --lumina-browser-border-color: #222222;
+    --lumina-accent-color: aqua;
+    --lumina-primary-color: #0F0F0F;
+    --lumina-secondary-color: #202020;
+    --lumina-tertiary-color: #303030;
+}

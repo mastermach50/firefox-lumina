@@ -1,0 +1,11 @@
+@import url(./../general.css);
+
+@-moz-document url-prefix("about:") {
+    :root {
+        --in-content-page-background: var(--lumina-primary-color) !important;
+        --in-content-box-background: var(--lumina-secondary-color) !important;
+        --in-content-table-background: var(--lumina-secondary-color) !important;
+        --in-content-primary-button-background: var(--lumina-accent-color) !important;
+        --color-accent-primary: var(--lumina-accent-color) !important
+    }
+}
