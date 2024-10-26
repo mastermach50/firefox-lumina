@@ -1,0 +1,13 @@
+@import url(./../general.css);
+
+/* Set background color of groups page */
+@-moz-document regexp("^moz-extension://.*?/sidebery/group.html") {
+
+    #root {
+        --toolbar-bg: var(--lumina-primary-color) !important;
+    };
+
+    #tabs div{
+        border-radius: var(--lumina-border-radius) !important;
+    }
+}

@@ -4,6 +4,7 @@
 
     /* for the larger panels */
     --arrowpanel-border-radius: var(--lumina-border-radius) !important;
+    --arrowpanel-border-color: var(--lumina-tertiary-color) !important;
     --arrowpanel-menuitem-border-radius: var(--lumina-border-radius) !important;
     --arrowpanel-background: var(--lumina-secondary-color) !important;
 
