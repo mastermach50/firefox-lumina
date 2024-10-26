@@ -1,0 +1,33 @@
+@import url(./general.css);
+
+* {
+    --arrowpanel-background: var(--lumina-secondary-color) !important;
+    --arrowpanel-border-color: var(--lumina-tertiary-color) !important;
+
+    --panel-background: var(--lumina-secondary-color) !important;
+
+    --newtab-background-color-secondary: var(--lumina-secondary-color) !important;
+    --newtab-element-hover-color: var(--lumina-secondary-color) !important;
+
+    --toolbar-field-focus-border-color: var(--lumina-tertiary-color) !important;
+    
+    --lwt-toolbarbutton-icon-fill-attention: var(--lumina-accent-color) !important;
+
+    --focus-outline-color: var(--lumina-accent-color) !important;
+
+    --background-color-box: var(--lumina-secondary-color) !important;
+
+    --in-content-page-background: var(--lumina-primary-color) !important;
+    
+    --button-primary-bgcolor: var(--lumina-accent-color) !important;
+    --button-primary-bgcolor-hover: var(--lumina-accent-color-light) !important;
+    --button-primary-bgcolor-active: var(--lumina-accent-color-dark) !important;
+
+    --in-content-primary-button-background: var(--lumina-accent-color) !important;
+    --in-content-primary-button-background-hover: var(--lumina-accent-color-light) !important;
+    --in-content-primary-button-background-active: var(--lumina-accent-color-dark) !important;
+    
+    --color-accent-primary: var(--lumina-accent-color) !important;
+    --color-accent-primary-hover: var(--lumina-accent-color-light) !important;
+    --color-accent-primary-active: var(--lumina-accent-color-dark) !important;
+}

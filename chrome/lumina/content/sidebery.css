@@ -1,11 +1,7 @@
 @import url(./../general.css);
 
-/* Set background color of groups page */
-@-moz-document regexp("^moz-extension://.*?/sidebery/group.html") {
-
-    #root {
-        --toolbar-bg: var(--lumina-primary-color) !important;
-    };
+/* Round the items on sidebery's groups page */
+@-moz-document regexp("^moz-extension://.*/sidebery/group.html.*") {
 
     #tabs div{
         border-radius: var(--lumina-border-radius) !important;

@@ -3,11 +3,6 @@
 @-moz-document url("about:home"), url("about:newtab") {
 
     body {
-        /* Set the colors on the newtab */
-        --newtab-background-color: var(--lumina-primary-color) !important;
-        --newtab-background-color-secondary: var(--lumina-secondary-color) !important;
-        --newtab-element-hover-color: var(--lumina-secondary-color) !important;
-
         /* Set the newtab background image */
         background-image: url(../../wallpapers/francesco-ungaro-r4WYSLo13Bs-unsplash.jpg) !important;
     }

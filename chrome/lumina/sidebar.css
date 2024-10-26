@@ -1,11 +1,11 @@
 @import url(./general.css);
 
-/* remove sidebar header */
+/* Remove sidebar header */
 #sidebar-header {
     display: none !important;
 }
 
-/* change sidebar splitter to look like it is a part of the sidebar */
+/* Change sidebar splitter color to blend in with the sidebar */
 #sidebar-splitter {
     border: none !important;
     background-color: var(--lumina-primary-color) !important;

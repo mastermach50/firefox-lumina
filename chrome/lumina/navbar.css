@@ -1,28 +1,26 @@
 @import url(./general.css);
 
+/* Remove the border around the navbar */
 #navigator-toolbox {
     border: none !important;
 }
 
 * {
-    /* navbar colors*/
-    --toolbar-bgcolor: var(--lumina-primary-color) !important;
-    ---toolbar-field-background-color: var(--lumina-tertiary-color) !important;
+    /* Round the buttons and the urlbar on the navbar */
     --toolbarbutton-border-radius: var(--lumina-border-radius) !important;
-    --toolbar-field-focus-border-color: var(--lumina-tertiary-color) !important;
-
 }
 
-/* urlbar closed */
+/* Color of urlbar when it is closed */
 #urlbar-background {
     background-color: var(--lumina-primary-color) !important;
 }
 
+/* Color of urlbar when it is closed and hovered */
 #urlbar:not([breakout][breakout-extend][breakout-extend-animate]) .urlbar-input-container:hover {
     background-color: var(--lumina-secondary-color) !important;
 }
 
-/* urlbar opened */
+/* Color of urlbar when it is open */
 #urlbar[breakout][breakout-extend][breakout-extend-animate] > #urlbar-background {
     background-color: var(--lumina-tertiary-color) !important;
     border-radius: var(--lumina-border-radius) !important;
