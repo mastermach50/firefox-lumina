@@ -22,6 +22,9 @@
 
     --in-content-page-background: var(--lumina-primary-color) !important;
     --background-color-box: var(--lumina-secondary-color) !important;
+
+    --in-content-box-background-odd: var(--lumina-tertiary-color) !important;
+    --in-content-box-info-background: var(--lumina-tertiary-color) !important;
     
     --link-color: var(--lumina-accent-color) !important;
     --link-color-hover: var(--lumina-accent-color-light) !important;

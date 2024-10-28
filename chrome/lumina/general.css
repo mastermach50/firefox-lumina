@@ -3,10 +3,16 @@
     --circular-border-radius: 50px;
     --browser-border-width: 3px;
 
+    --lumina-accent-color-light: #fd4851;
+    --lumina-accent-color: #ff2424;
+    --lumina-accent-color-dark: #bb0d2a;
+
+    /* --lumina-accent-color-light: #548BFF;
+    --lumina-accent-color: #1F75FE;
+    --lumina-accent-color-dark: #0A5EC9; */
+
     --lumina-browser-border-color: #222222;
-    --lumina-accent-color-light: #f67575;
-    --lumina-accent-color: #ff5252;
-    --lumina-accent-color-dark: #dd3030;
+
     --lumina-primary-color: #0F0F0F;
     --lumina-secondary-color: #202020;
     --lumina-tertiary-color: #303030;
