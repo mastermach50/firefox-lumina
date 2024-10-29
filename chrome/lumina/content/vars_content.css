@@ -1,0 +1,42 @@
+@import url(./../general.css);
+
+
+@-moz-document url-prefix("about:") {
+
+    * {
+        /* newtab colors */
+        --newtab-background-color-secondary: var(--lumina-secondary-color) !important;
+        --newtab-element-hover-color: var(--lumina-secondary-color) !important;
+        
+        /* field focus outline */
+        --focus-outline-color: var(--lumina-accent-color) !important;
+        
+        /* background of all pages */
+        --in-content-page-background: var(--lumina-primary-color) !important;
+        
+        /* for the boxes and tables in pages */
+        --background-color-box: var(--lumina-secondary-color) !important;
+        --in-content-box-background-odd: var(--lumina-tertiary-color) !important;
+        --in-content-box-info-background: var(--lumina-tertiary-color) !important;
+        
+        /* links */
+        --link-color: var(--lumina-accent-color) !important;
+        --link-color-hover: var(--lumina-accent-color-light) !important;
+        --link-color-active: var(--lumina-accent-color-dark) !important;
+        
+        /* tables */
+        --in-content-table-background: var(--lumina-secondary-color);
+        --in-content-table-border-color: var(--lumina-tertiary-color);
+
+        /* interactive elements in pages */
+        --in-content-primary-button-text-color: var(--lumina-accent-text-color) !important;
+        --in-content-primary-button-background: var(--lumina-accent-color) !important;
+        --in-content-primary-button-background-hover: var(--lumina-accent-color-light) !important;
+        --in-content-primary-button-background-active: var(--lumina-accent-color-dark) !important;
+    
+        /* interactive elements on newtab */
+        --color-accent-primary: var(--lumina-accent-color) !important;
+        --color-accent-primary-hover: var(--lumina-accent-color-light) !important;
+        --color-accent-primary-active: var(--lumina-accent-color-dark) !important;
+    }
+}

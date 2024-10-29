@@ -2,7 +2,7 @@
 @import url(./lumina/general.css);
 
 @import url(./lumina/browser.css);
-@import url(./lumina/color_variables.css);
+@import url(./lumina/vars_browser.css);
 @import url(./lumina/icons.css);
 @import url(./lumina/navbar.css);
 @import url(./lumina/panels.css);

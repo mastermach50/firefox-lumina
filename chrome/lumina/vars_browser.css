@@ -1,0 +1,33 @@
+@import url(./general.css);
+
+* {
+    /* top right panels */
+    /* --arrowpanel-background: var(--lumina-secondary-color) !important; */
+    --arrowpanel-border-color: var(--lumina-tertiary-color) !important;
+    --arrowpanel-border-radius: var(--lumina-border-radius) !important;
+    --arrowpanel-menuitem-border-radius: var(--lumina-border-radius) !important;
+    --toolbarbutton-border-radius: var(--lumina-border-radius) !important;
+
+    /* right click panel */
+    --panel-background: var(--lumina-secondary-color) !important;
+    --panel-border-radius: var(--lumina-border-radius) !important;
+
+    /* urlbar and toolbar */
+    --toolbar-field-focus-border-color: var(--lumina-tertiary-color) !important;
+    --urlbarView-highlight-background: var(--lumina-accent-color) !important;
+    --lwt-toolbarbutton-icon-fill-attention: var(--lumina-accent-color) !important;
+    
+    /* field focus outline */
+    --focus-outline-color: var(--lumina-accent-color) !important;
+
+    /* button colors */
+    --in-content-primary-button-text-color: var(--lumina-accent-text-color) !important;
+    --button-primary-bgcolor: var(--lumina-accent-color) !important;
+    --button-primary-hover-bgcolor: var(--lumina-accent-color-light) !important;
+    --button-primary-active-bgcolor: var(--lumina-accent-color-dark) !important;
+
+    /* link colors in urlbar */
+    --link-color: var(--lumina-accent-color) !important;
+    --link-color-hover: var(--lumina-accent-color-light) !important;
+    --link-color-active: var(--lumina-accent-color-dark) !important;
+}

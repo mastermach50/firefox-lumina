@@ -5,11 +5,6 @@
     border: none !important;
 }
 
-* {
-    /* Round the buttons and the urlbar on the navbar */
-    --toolbarbutton-border-radius: var(--lumina-border-radius) !important;
-}
-
 /* Color of urlbar when it is closed */
 #urlbar-background {
     background-color: var(--lumina-primary-color) !important;
