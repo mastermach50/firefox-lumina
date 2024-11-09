@@ -13,6 +13,7 @@
     --panel-border-radius: var(--lumina-border-radius) !important;
 
     /* urlbar and toolbar */
+    --toolbar-bgcolor: var(--lumina-primary-color) !important;
     --toolbar-field-focus-border-color: var(--lumina-tertiary-color) !important;
     --urlbarView-highlight-background: var(--lumina-accent-color) !important;
     --lwt-toolbarbutton-icon-fill-attention: var(--lumina-accent-color) !important;
