@@ -8,7 +8,7 @@ browser[primary="true"] {
 }
 
 /* Remove left border and rounding if the sidebar is hidden */
-#sidebar-splitter[hidden="true"]~#appcontent browser {
+#sidebar-box[hidden="true"] ~ #tabbrowser-tabbox browser[primary="true"] {
     border-left: none !important;
     border-radius: 0 !important;
 }
