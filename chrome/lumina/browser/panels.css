@@ -1,0 +1,34 @@
+@import url(../settings.css);
+
+menupopup, panel[type="arrow"] {
+    /* Set the background color for all the panels */
+    /* eg: right click menu, top right panel */
+    --panel-background: var(--lumina-bg-1) !important;
+
+}
+
+* {
+    --panel-item-hover-bgcolor: var(--lumina-hover) !important;
+    --panel-item-active-bgcolor: var(--lumina-active) !important;
+
+    /* Set the border radius for the panels and the items in them */
+    --panel-border-radius: var(--lumina-radius) !important;
+    --arrowpanel-menuitem-border-radius: var(--lumina-radius) !important;
+
+    /* Make borders invisible */
+    --arrowpanel-border-color: transparent !important
+}
+
+/* Set the menuitems to inherit the arrowpanel-menuitem-border-radius */
+menuitem {
+    border-radius: var(--panel-border-radius) !important;
+}
+
+/* Set the colors when hovered on items in menus */
+menu,
+menuitem {
+    &:where([_moz-menuactive]:not([disabled="true"])) {
+        color: var(--lumina-text) !important;
+        background-color: var(--lumina-hover) !important;
+    }
+}

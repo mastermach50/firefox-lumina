@@ -1,0 +1,42 @@
+* {
+    /* --lumina-bg-0: red;
+    --lumina-bg-1: blue;
+    --lumina-bg-2: green;
+
+    --lumina-text: white;
+
+    --lumina-accent: hsl(330, 100%, 70%);
+    --lumina-accent-light: hsl(330, 100%, 75%);
+    --lumina-accent-lighter: hsl(330, 100%, 80%);
+
+    --lumina-hover: purple;
+    --lumina-active: rgb(248, 17, 225);
+    --lumina-selected: rgb(241, 235, 46);
+
+    --lumina-browser-border-color: var(--lumina-bg-2);
+    --lumina-browser-border-width: 3px;
+
+    --lumina-radius: 1rem;
+    --full-circle: 1000rem; */
+
+    --lumina-bg-0: hsl(0, 0%, 6%);
+    --lumina-bg-1: hsl(0, 0%, 15%);
+    --lumina-bg-2: hsl(0, 0%, 25%);
+
+    --lumina-text: white;
+
+    --lumina-accent: hsl(330, 100%, 70%);
+    --lumina-accent-light: hsl(330, 100%, 75%);
+    --lumina-accent-lighter: hsl(330, 100%, 80%);
+
+    --lumina-hover: hsl(0, 0%, 25%);
+    --lumina-active: hsl(0, 0%, 30%);
+    --lumina-selected: hsl(0, 0%, 35%);
+
+    --lumina-browser-border-color: var(--lumina-bg-2);
+    --lumina-browser-border-width: 3px;
+
+    --lumina-radius: 1rem;
+    --full-circle: 1000rem;
+
+}

@@ -1,0 +1,11 @@
+@import url(../settings.css);
+
+* {
+    /* For most outline colors */
+    --focus-outline-color: var(--lumina-accent) !important;
+
+    /* Colors for buttons and other stuff */
+    --color-accent-primary: var(--lumina-accent) !important;
+    --color-accent-primary-hover: var(--lumina-accent-light) !important;
+    --color-accent-primary-active: var(--lumina-accent-lighter) !important;
+}

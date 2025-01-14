@@ -1,0 +1,12 @@
+@import url(../settings.css);
+
+/* Disable the sidebar header */
+#sidebar-header {
+    display: none;
+}
+
+/* Make the sidebar splitter blend in with the background */
+.sidebar-splitter {
+    background-color: var(--lumina-bg-0) !important;
+    border: none !important;
+}

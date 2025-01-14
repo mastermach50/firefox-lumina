@@ -1,0 +1,6 @@
+@import url(../settings.css);
+
+/* Replace extensions icon */
+#unified-extensions-button {
+    list-style-image: url(../icons/extensions.svg) !important;
+}

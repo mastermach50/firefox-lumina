@@ -1,0 +1,62 @@
+@import url(../settings.css);
+
+* {
+    /* Set the background color for the toolbar */
+    --toolbar-bgcolor: var(--lumina-bg-0) !important;
+
+    /* Set the border radius for the urlbar and icons on the toolbar */
+    --toolbarbutton-border-radius: var(--full-circle) !important;
+
+    /* Set the color of the highlighted option in the opened urlbar */
+    --urlbarView-highlight-background: var(--lumina-accent) !important;
+
+    /* General important icon color */
+    --toolbarbutton-icon-fill-attention: var(--lumina-accent) !important;
+}
+
+/* Disable the tabs toolbar */
+#TabsToolbar {
+    display: none;
+}
+
+/* Remove the bottom border of the toolbar */
+#navigator-toolbox {
+    border-bottom: none !important;
+}
+
+/* Set background color for selected text in the urlbar */
+.urlbar-input::selection,
+& .searchbar-textbox::selection {
+    background-color: var(--lumina-accent) !important;
+}
+
+/* Default urlbar color */
+#urlbar>#urlbar-background {
+    background-color: var(--lumina-bg-0) !important;
+}
+
+/* urlbar color on hover*/
+#urlbar:hover>#urlbar-background {
+    background-color: var(--lumina-bg-1) !important;
+}
+
+/* Set different border radius for the urlbar based on wheater it is opened or not */
+#urlbar[breakout-extend]>#urlbar-background {
+    background-color: var(--lumina-bg-1) !important;
+    border-radius: var(--lumina-radius) !important;
+}
+
+/* Set the border radius of each item in the expanded urlbar */
+#urlbar .urlbarView-row {
+    border-radius: var(--lumina-radius) !important;
+}
+
+/* Set the background color for the tag used to indicate special pages */
+#urlbar #identity-box:not([class="verifiedDomain"]) #identity-icon-box {
+    background-color: var(--lumina-accent) !important;
+}
+
+/* Set the background color for search mode indicator */
+#urlbar-search-mode-indicator {
+    background-color: var(--lumina-accent) !important;
+}
