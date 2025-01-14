@@ -2,33 +2,75 @@
 
 * {
     /* top right panels */
-    /* --arrowpanel-background: var(--lumina-secondary-color) !important; */
-    --arrowpanel-border-color: var(--lumina-tertiary-color) !important;
+    /* --arrowpanel-background: var(--lumina-bg-secondary) !important;
+    --arrowpanel-border-color: var(--lumina-bg-tertiary) !important;
     --arrowpanel-border-radius: var(--lumina-border-radius) !important;
     --arrowpanel-menuitem-border-radius: var(--lumina-border-radius) !important;
-    --toolbarbutton-border-radius: var(--lumina-border-radius) !important;
+    --toolbarbutton-border-radius: var(--lumina-border-radius) !important; */
 
     /* right click panel */
-    --panel-background: var(--lumina-secondary-color) !important;
-    --panel-border-radius: var(--lumina-border-radius) !important;
+    /* --panel-background: var(--lumina-bg-secondary) !important;
+    --panel-border-radius: var(--lumina-border-radius) !important; */
 
     /* urlbar and toolbar */
-    --toolbar-bgcolor: var(--lumina-primary-color) !important;
-    --toolbar-field-focus-border-color: var(--lumina-tertiary-color) !important;
+    /* --toolbar-bgcolor: var(--lumina-bg-primary) !important;
+    --toolbar-field-focus-border-color: var(--lumina-bg-tertiary) !important;
     --urlbarView-highlight-background: var(--lumina-accent-color) !important;
-    --lwt-toolbarbutton-icon-fill-attention: var(--lumina-accent-color) !important;
+    --lwt-toolbarbutton-icon-fill-attention: var(--lumina-accent-color) !important; */
     
     /* field focus outline */
-    --focus-outline-color: var(--lumina-accent-color) !important;
+    /* --focus-outline-color: var(--lumina-accent-color) !important; */
 
     /* button colors */
-    --in-content-primary-button-text-color: var(--lumina-accent-text-color) !important;
+    /* --in-content-primary-button-text-color: var(--lumina-accent-text-color) !important;
     --button-primary-bgcolor: var(--lumina-accent-color) !important;
     --button-primary-hover-bgcolor: var(--lumina-accent-color-light) !important;
-    --button-primary-active-bgcolor: var(--lumina-accent-color-dark) !important;
+    --button-primary-active-bgcolor: var(--lumina-accent-color-dark) !important; */
 
     /* link colors in urlbar */
-    --link-color: var(--lumina-accent-color) !important;
+    /* --link-color: var(--lumina-accent-color) !important;
     --link-color-hover: var(--lumina-accent-color-light) !important;
-    --link-color-active: var(--lumina-accent-color-dark) !important;
+    --link-color-active: var(--lumina-accent-color-dark) !important; */
+
+
+
+    /* Navbar */
+    --toolbar-bgcolor: var(--lumina-bg-primary) !important;
+    --toolbar-color: var(--lumina-font) !important;
+
+    --toolbar-field-color: var(--lumina-font-dark) !important;
+    --toolbar-field-focus-color: var(--lumina-font) !important;
+
+    /* eg: switch tab buttons on the search suggestions */
+    --urlbar-box-focus-bgcolor: var(--lumina-accent-color) !important;
+    --urlbarView-result-button-hover-background-color: var(--lumina-accent-color-light) !important; 
+    --urlbarView-result-button-selected-background-color: var(--lumina-accent-color-dark) !important; 
+
+    --toolbarbutton-border-radius: var(--lumina-circular-border-radius) !important;
+    --toolbarbutton-icon-fill-attention: var(--lumina-accent-color) !important;
+
+    /* Page */
+    /* that tiny bit of background behind the page that is visible due to the curved border */
+    --tabpanel-background-color: var(--lumina-bg-primary) !important; 
+
+    /* Top Right Hamburger Menu */
+    --arrowpanel-background: var(--lumina-bg-secondary) !important;
+    --arrowpanel-color: var(--lumina-font) !important;
+
+    --arrowpanel-border-radius: var(--lumina-border-radius) !important;
+    --arrowpanel-border-color: transparent !important;
+    
+    --arrowpanel-menuitem-border-radius: var(--lumina-border-radius) !important;
+
+    /* Right Click Menu */
+    --panel-border-radius: var(--lumina-border-radius) !important;
+    --panel-border-color: transparent !important;
+
+    /* All Links */
+    --link-color: var(--lumina-accent-color) !important;
+
+    /* General Buttons */
+    --color-accent-primary: var(--lumina-accent-color) !important;
+    --color-accent-primary-hover: var(--lumina-accent-color-light) !important; 
+    --color-accent-primary-active: var(--lumina-accent-color-dark) !important; 
 }

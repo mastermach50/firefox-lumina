@@ -5,19 +5,19 @@
 
     * {
         /* newtab colors */
-        --newtab-background-color-secondary: var(--lumina-secondary-color) !important;
-        --newtab-element-hover-color: var(--lumina-secondary-color) !important;
+        --newtab-background-color-secondary: var(--lumina-bg-secondary) !important;
+        --newtab-element-hover-color: var(--lumina-bg-secondary) !important;
         
         /* field focus outline */
         --focus-outline-color: var(--lumina-accent-color) !important;
         
         /* background of all pages */
-        --in-content-page-background: var(--lumina-primary-color) !important;
+        --in-content-page-background: var(--lumina-bg-primary) !important;
         
         /* for the boxes and tables in pages */
-        --background-color-box: var(--lumina-secondary-color) !important;
-        --in-content-box-background-odd: var(--lumina-tertiary-color) !important;
-        --in-content-box-info-background: var(--lumina-tertiary-color) !important;
+        --background-color-box: var(--lumina-bg-secondary) !important;
+        --in-content-box-background-odd: var(--lumina-bg-tertiary) !important;
+        --in-content-box-info-background: var(--lumina-bg-tertiary) !important;
         
         /* links */
         --link-color: var(--lumina-accent-color) !important;
@@ -25,8 +25,8 @@
         --link-color-active: var(--lumina-accent-color-dark) !important;
         
         /* tables */
-        --in-content-table-background: var(--lumina-secondary-color);
-        --in-content-table-border-color: var(--lumina-tertiary-color);
+        --in-content-table-background: var(--lumina-bg-secondary);
+        --in-content-table-border-color: var(--lumina-bg-tertiary);
 
         /* interactive elements in pages */
         --in-content-primary-button-text-color: var(--lumina-accent-text-color) !important;

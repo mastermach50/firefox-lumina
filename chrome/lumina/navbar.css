@@ -7,16 +7,16 @@
 
 /* Color of urlbar when it is closed */
 #urlbar-background {
-    background-color: var(--lumina-primary-color) !important;
+    background-color: var(--lumina-bg-primary) !important;
 }
 
 /* Color of urlbar when it is closed and hovered */
 #urlbar:not([breakout][breakout-extend][breakout-extend-animate]) .urlbar-input-container:hover {
-    background-color: var(--lumina-secondary-color) !important;
+    background-color: var(--lumina-bg-secondary) !important;
 }
 
 /* Color of urlbar when it is open */
 #urlbar[breakout][breakout-extend][breakout-extend-animate] > #urlbar-background {
-    background-color: var(--lumina-tertiary-color) !important;
+    background-color: var(--lumina-bg-tertiary) !important;
     border-radius: var(--lumina-border-radius) !important;
 }

@@ -9,7 +9,7 @@
 
     /* Round the borders of the searchbar on the newtab */
     .search-handoff-button {
-        border-radius: var(--circular-border-radius) !important;
+        border-radius: var(--lumina-circular-border-radius) !important;
     }
 
     /* Remove the background of the tiles in the newtab */
@@ -28,7 +28,7 @@
 
     /* Change the color of the button on the tile on hover */
     .top-site-outer .context-menu-button:hover {
-        background-color: var(--lumina-tertiary-color) !important;
+        background-color: var(--lumina-bg-tertiary) !important;
     }
 
     /* Remove excess padding on the tiles */

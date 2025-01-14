@@ -12,3 +12,13 @@ browser[primary="true"] {
     border-left: none !important;
     border-radius: 0 !important;
 }
+
+/* Change the background color of the right clikck menu */
+.menupopup-arrowscrollbox {
+    background-color: var(--lumina-bg-secondary) !important;
+}
+
+/* Set the border radius of each item in the right click menu */
+.menupopup-arrowscrollbox .menuitem {
+    border-radius: var(--panel-border-radius);
+}

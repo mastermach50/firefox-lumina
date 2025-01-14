@@ -8,5 +8,5 @@
 /* Change sidebar splitter color to blend in with the sidebar */
 #sidebar-splitter {
     border: none !important;
-    background-color: var(--lumina-primary-color) !important;
+    background-color: var(--lumina-bg-primary) !important;
 }
