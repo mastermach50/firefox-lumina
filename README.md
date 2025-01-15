@@ -1,5 +1,5 @@
 # Firefox Lumina
-A Firefox dark theme designed to stay out of your way.
+An unobtrusive, seamless Firefox theme.
 
 ![Firefox Lumina Screenshot](firefox-lumina.png)
 

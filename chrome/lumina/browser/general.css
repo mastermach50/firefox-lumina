@@ -1,5 +1,3 @@
-@import url(../settings.css);
-
 * {
     /* For most outline colors */
     --focus-outline-color: var(--lumina-accent) !important;

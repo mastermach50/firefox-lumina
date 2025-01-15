@@ -1,5 +1,3 @@
-@import url(../settings.css);
-
 * {
     /* Set the background color for the toolbar */
     --toolbar-bgcolor: var(--lumina-bg-0) !important;

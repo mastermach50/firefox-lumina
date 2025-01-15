@@ -1,5 +1,3 @@
-@import url(../settings.css);
-
 /* Add a border to the browser */
 /* The high specificity is needed to make sure that only the main browser gets the border */
 #tabbrowser-tabbox browser[primary="true"] {
