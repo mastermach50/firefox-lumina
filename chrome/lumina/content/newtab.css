@@ -1,0 +1,62 @@
+@import url(../settings.css);
+
+@-moz-document url("about:home"), url("about:newtab") {
+
+    * {
+        /* Set the newtab page colors */
+        --newtab-background-color: var(--lumina-bg-0) !important;
+        --newtab-background-color-secondary: var(--lumina-bg-1) !important;
+
+        /* For only the sponsored shortcuts checkbox in the right settings menu in the newtab */
+        --newtab-primary-action-background: var(--lumina-accent) !important;
+
+        /* Regular buttons */
+        --newtab-element-secondary-color: var(--lumina-bg-1) !important;
+        --newtab-element-secondary-hover-color: var(--lumina-hover) !important;
+        --newtab-element-secondary-active-color: var(--lumina-active) !important;
+
+        /* Some elements */
+        --newtab-element-hover-color: var(--lumina-hover) !important;
+        --newtab-element-active-color: var(--lumina-active) !important;
+    }
+
+    body {
+        /* Set the newtab background image */
+        background-image: var(--lumina-wallpaper) !important;
+    }
+
+    /* Round the borders of the searchbar on the newtab */
+    .search-handoff-button {
+        border-radius: var(--full-circle) !important;
+    }
+
+    /* Remove the background of the tiles in the newtab */
+    .top-site-outer .top-site-inner,
+    .top-site-outer .tile,
+    .top-site-outer .top-site-icon,
+    .top-site-outer .context-menu-button {
+        background-color: transparent !important;
+        box-shadow: none !important;
+    }
+
+    /* Set the color of the tile when hovered */
+    .top-site-outer:hover {
+        background-color: var(--lumina-bg-1) !important;
+    }
+
+    /* Set the button on the tile to the top */
+    .top-site-outer .context-menu-button {
+        top: 0 !important;
+    }
+
+    /* Change the color of the button on the tile on hover */
+    .top-site-outer .context-menu-button:hover {
+        background-color: var(--lumina-bg-2) !important;
+    }
+
+    /* Remove excess padding on the tiles */
+    .top-site-outer .top-site-inner > a {
+        padding: 0 !important;
+    }
+
+}

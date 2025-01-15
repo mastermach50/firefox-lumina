@@ -20,7 +20,7 @@ menupopup, panel[type="arrow"] {
 }
 
 /* Set the menuitems to inherit the arrowpanel-menuitem-border-radius */
-menuitem {
+menu, menuitem {
     border-radius: var(--panel-border-radius) !important;
 }
 

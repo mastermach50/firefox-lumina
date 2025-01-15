@@ -17,7 +17,9 @@
     --lumina-browser-border-width: 3px;
 
     --lumina-radius: 1rem;
-    --full-circle: 1000rem; */
+    --full-circle: 1000rem;
+
+    --lumina-wallpaper: url(./wallpapers/francesco-ungaro-r4WYSLo13Bs-unsplash.jpg); */
 
     --lumina-bg-0: hsl(0, 0%, 6%);
     --lumina-bg-1: hsl(0, 0%, 15%);
@@ -38,5 +40,8 @@
 
     --lumina-radius: 1rem;
     --full-circle: 1000rem;
+
+    --lumina-wallpaper: url(../wallpapers/francesco-ungaro-r4WYSLo13Bs-unsplash.jpg);
+
 
 }

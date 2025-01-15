@@ -1,0 +1,5 @@
+@import url(../settings.css);
+
+.webextension-popup-browser body {
+    background-color: var(--lumina-bg-0) !important;
+}
