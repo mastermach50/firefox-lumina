@@ -1,8 +1,7 @@
 @import url(./lumina/settings.css);
-@import url(./lumina/vars.css);
+@import url(./lumina/general_variables.css);
 
 @import url(./lumina/browser/browser-border.css);
-@import url(./lumina/browser/general.css);
 @import url(./lumina/browser/icons.css);
 @import url(./lumina/browser/panels.css);
 @import url(./lumina/browser/sidebar.css);

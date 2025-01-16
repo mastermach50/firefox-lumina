@@ -1,0 +1,24 @@
+* {
+    /* For debugging colors */
+    --lumina-bg-0: red !important;
+    --lumina-bg-1: blue !important;
+    --lumina-bg-2: green !important;
+
+    --lumina-text: white !important;
+
+    --lumina-accent: hsl(330, 100%, 70%) !important;
+    --lumina-accent-light: hsl(330, 100%, 75%) !important;
+    --lumina-accent-lighter: hsl(330, 100%, 80%) !important;
+
+    --lumina-hover: purple !important;
+    --lumina-active: rgb(248, 17, 225) !important;
+    --lumina-selected: rgb(241, 235, 46) !important;
+
+    --lumina-browser-border-color: var(--lumina-bg-2) !important;
+    --lumina-browser-border-width: 3px !important;
+
+    --lumina-radius: 1rem !important;
+    --full-circle: 1000rem !important;
+
+    /* --lumina-wallpaper: url(../wallpapers/francesco-ungaro-r4WYSLo13Bs-unsplash.jpg); */
+}

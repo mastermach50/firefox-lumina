@@ -23,6 +23,9 @@
     --color-accent-primary-hover: var(--lumina-accent-light) !important;
     --color-accent-primary-active: var(--lumina-accent-lighter) !important;
 
+    /* For most outline colors */
+    --focus-outline-color: var(--lumina-accent) !important;
+
     /* Boxes and sometimes for tables */
     --box-background: var(--lumina-bg-1) !important;
     --background-color-box: var(--lumina-bg-1) !important;

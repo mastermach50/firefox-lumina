@@ -2,3 +2,8 @@
 #unified-extensions-button {
     list-style-image: url(../icons/extensions.svg) !important;
 }
+
+/* Make the sideberry extension icon fully white */
+toolbarbutton[data-extensionid="{3c078156-979c-498b-8990-85f7987dd929}"] .toolbarbutton-icon {
+    filter: brightness(200%) !important;
+}
