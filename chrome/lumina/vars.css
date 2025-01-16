@@ -1,0 +1,35 @@
+* {
+    /* General stuff for about: pages */
+    --in-content-text-color: var(--lumina-text) !important;
+    --in-content-page-background: var(--lumina-bg-0) !important;
+    --in-content-background-color: var(--lumina-bg-0) !important;
+    --card-background-color: var(--lumina-bg-1) !important;
+
+    /* Regular button colors */
+    --button-background-color: var(--lumina-bg-1) !important;
+    --button-hover-background-color: var(--lumina-hover) !important;
+    --button-active-background-color: var(--lumina-active) !important;
+    --in-content-button-background-hover: var(--lumina-hover) !important;
+    --in-content-button-background-active: var(--lumina-active) !important;
+
+    /* Primary button colors */
+    --in-content-primary-button-text-color: var(--lumina-text) !important;
+    --in-content-primary-button-background: var(--lumina-accent) !important;
+    --in-content-primary-button-background-hover: var(--lumina-accent-light) !important;
+    --in-content-primary-button-background-active: var(--lumina-accent-lighter) !important;
+
+    /* Accent colors */
+    --color-accent-primary: var(--lumina-accent) !important;
+    --color-accent-primary-hover: var(--lumina-accent-light) !important;
+    --color-accent-primary-active: var(--lumina-accent-lighter) !important;
+
+    /* Boxes and sometimes for tables */
+    --box-background: var(--lumina-bg-1) !important;
+    --background-color-box: var(--lumina-bg-1) !important;
+    --in-content-box-border-color: var(--lumina-bg-2) !important;
+    --in-content-box-background-odd: var(--lumina-bg-2) !important;
+    --in-content-box-info-background: var(--lumina-bg-2) !important;
+
+    /* Tables */
+    --in-content-table-background: var(--lumina-bg-1) !important;
+}

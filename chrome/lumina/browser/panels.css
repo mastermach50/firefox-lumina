@@ -6,6 +6,10 @@ menupopup, panel[type="arrow"] {
 }
 
 * {
+    /* Some panels need this */
+    /* eg: panel in toolbar customization screen */
+    --arrowpanel-background: var(--lumina-bg-1) !important;
+
     --panel-item-hover-bgcolor: var(--lumina-hover) !important;
     --panel-item-active-bgcolor: var(--lumina-active) !important;
 

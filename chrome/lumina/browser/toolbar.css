@@ -38,7 +38,7 @@
     background-color: var(--lumina-bg-1) !important;
 }
 
-/* Set different border radius for the urlbar based on wheater it is opened or not */
+/* Set different border radius and background color for the urlbar based on whether it is opened or not */
 #urlbar[breakout-extend]>#urlbar-background {
     background-color: var(--lumina-bg-1) !important;
     border-radius: var(--lumina-radius) !important;
