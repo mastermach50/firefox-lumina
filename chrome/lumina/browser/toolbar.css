@@ -10,6 +10,9 @@
 
     /* General important icon color */
     --toolbarbutton-icon-fill-attention: var(--lumina-accent) !important;
+
+   /* Used sometimes in windows instead of the --focus-outline-color variable */
+    --toolbar-field-focus-border-color: var(--lumina-accent) !important;
 }
 
 /* Disable the tabs toolbar */
