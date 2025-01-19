@@ -4,6 +4,8 @@
     border-radius: var(--lumina-radius) 0 0 0 !important;
     border-top: solid var(--lumina-browser-border-color) var(--lumina-browser-border-width) !important;
     border-left: solid var(--lumina-browser-border-color) var(--lumina-browser-border-width) !important;
+    /* To make sure that no element on the page displays over the border*/
+    clip-path: xywh(0 0 100% 100% round 1px);
 }
 
 /* Remove left border and rounding if the sidebar is hidden */

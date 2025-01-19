@@ -35,4 +35,8 @@
 
     /* Tables */
     --in-content-table-background: var(--lumina-bg-1) !important;
+
+    /* Links */
+    /* eg: links in autocomplete in the urlbar */
+    --link-color: var(--lumina-accent) !important;
 }
