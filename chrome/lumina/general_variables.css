@@ -1,4 +1,6 @@
 * {
+    /* Panel and Toolbar variables are in their own files */
+
     /* General stuff for about: pages */
     --in-content-text-color: var(--lumina-text) !important;
     --in-content-page-background: var(--lumina-bg-0) !important;
@@ -24,6 +26,9 @@
     --color-accent-primary-active: var(--lumina-accent-lighter) !important;
 
     /* For most outline colors */
+    /* exception:
+    Windows uses --toolbar-field-focus-border-color for some borders.
+    It is defined in lumina/browser/toolbar.css. */
     --focus-outline-color: var(--lumina-accent) !important;
 
     /* Boxes and sometimes for tables */
